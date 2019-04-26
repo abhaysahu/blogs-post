@@ -1,0 +1,36 @@
+{
+  "name": "blog-post",
+  "version": "1.0.0",
+  "description": "MEAN Stack blog project with angular 7",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhaysahu/Blog-post.git"
+  },
+  "keywords": [
+    "MEAN",
+    "Stack",
+    "Angular",
+    "7",
+    "blog",
+    "project"
+  ],
+  "author": "Abhay Sahu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abhaysahu/Blog-post/issues"
+  },
+  "homepage": "https://github.com/abhaysahu/Blog-post#readme",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.3",
+    "express": "^4.15.3",
+    "jsonwebtoken": "^7.4.1",
+    "mongoose": "^4.10.2"
+  }
+}
