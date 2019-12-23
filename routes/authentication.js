@@ -4,7 +4,7 @@ const config = require('../config/database');
 
 
 module.exports = (router) => {
-
+ 
     router.post('/register', (req, res) =>  {
         if(!req.body.email)
         {

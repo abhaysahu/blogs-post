@@ -153,7 +153,7 @@ export class BlogComponent implements OnInit {
       window.location.reload();
     }
 
-    getAllBlogs(){
+    getAllBlogs(){ 
       this.blogService.getAllBlogs().subscribe(data => {
         this.blogPosts = data.blogs;
 

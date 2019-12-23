@@ -79,7 +79,6 @@ const bodyValidators = [
     }
 
 ];
-    
 
     const blogSchema = new Schema({
         title: { type: String, required: true, validate: titleValidators},
@@ -96,11 +95,8 @@ const bodyValidators = [
                 commentator: { type: String}
             }
         ],
-        
+
     }, { usePushEach: true });
-
-
-
 
 
 module.exports = mongoose.model('Blog', blogSchema);

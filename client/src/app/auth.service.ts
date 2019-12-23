@@ -10,7 +10,7 @@ export class AuthService {
 
   
  
-  domain = "http://localhost:8080/"; 
+  domain = "https://blooming-hollows-21448.herokuapp.com/"; 
   authToken;
   user;
   options;
